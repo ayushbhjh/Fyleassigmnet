@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-box {
+  height: 60vh;
+  width: 40vw;
+  border: 2px solid rgb(119, 109, 109);
+  margin: 12% auto;
+  box-shadow: 0px 0px 10px rgb(119, 109, 109);
+  padding: 20px;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+.input-box .input-wrapper {
+  display: flex;
+  width: 80%;
+  height: 6vh;
+  margin-left: 12%;
+}
+
+.input-box .input-wrapper input,
+.input-box .input-wrapper select {
+  width: 80%;
+  border: 2px solid rgb(119, 109, 109);
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.input-box .input-wrapper span {
+  margin-left: 10px;
+  height: fit-content;
+  width: max-content;
+}
+
+
+
+.button .submit {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.button .submit:hover {
+  background-color: #0056b3;
+}
+.popup{
+  border: 2px solid black;
+  height: 40vh;
+  width: 40vw;
+  /* position: relative; */
+ margin-left: 30%;
+ margin-top: 15%;
+  padding-left: 15%;
+  padding-top: 10%;
+  bottom: 50vh;
+  display: none;
+  box-shadow: 0px 0px 10px black;
+
+}

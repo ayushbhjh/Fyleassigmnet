@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="main-box" id="form">
+    <div class="input-box">
+      <label for="annual-income"> Enter your Annual Income</label><span><i class="fa-solid fa-question"></i></span>
+      <div class="input-wrapper">
+        <input type="text" id="annual-income" name="income" placeholder="Enter gross annual income" required>
+        <span><i class="fa-solid fa-exclamation"></i></span>
+      </div>
+    </div>
+    <div class="input-box">
+      <label for="extra-income"> Enter Extra Income</label><span><i class="fa-solid fa-question"></i></span>
+      <div class="input-wrapper">
+        <input type="text" id="extra-income" required name="extra" placeholder="Enter extra income from other sources">
+        <span><i class="fa-solid fa-exclamation"></i></span>
+      </div>
+    </div>
+    <div class="input-box">
+      <label for="age-group"> Select Age Group</label><span><i class="fa-solid fa-question"></i></span>
+      <div class="input-wrapper">
+        <select name="group" id="age-group" required>
+          <option value="less than 40">Greater than 40</option>
+          <option value="between 40 and 60">Between 40 and 60</option>
+          <option value="greater than 60">Greater than 60</option>
+        </select>
+        <span><i class="fa-solid fa-exclamation"></i></span>
+      </div>
+    </div>
+    <div class="input-box">
+      <label for="applicable-group">Total Applicable Deduction</label><span><i class="fa-solid fa-question"></i></span>
+      <div class="input-wrapper">
+        <input type="text" name="deduction" id="applicable-group" placeholder="Add total applicable deduction" required>
+        <span><i class="fa-solid fa-exclamation"></i></span>
+      </div>
+    </div>
+    <div class="button">
+      <button class="submit">Submit</button>
+    </div>
+
+
+  </div>
+
+  <div class="popup"  id="popup">
+         
+           
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
